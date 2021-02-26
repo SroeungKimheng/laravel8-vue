@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Font Awesom
+@import "~admin-lte/plugins/fontawesome-free/css/all.min.css";
+//Admin LTE
+@import "~admin-lte/dist/css/adminlte.min.css";
+//Scroll
+@import "~admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css";
+
+//Font Khmer
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&display=swap');
+body {
+    font-family: 'Hanuman','Moul',"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
