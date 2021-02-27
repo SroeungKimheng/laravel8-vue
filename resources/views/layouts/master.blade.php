@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
-<div class="wrapper" id="app">
+<div class="wrapper">
 
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -110,9 +110,11 @@
     <!-- /.sidebar -->
   </aside>
 
-  @yield('content')
+  
   <!-- /.content-wrapper -->
-
+      <div class="wrapper" id="app">
+        @yield('content')
+      </div>
   <!-- Control Sidebar -->
   
 
